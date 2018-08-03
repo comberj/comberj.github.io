@@ -1,5 +1,9 @@
-#profile_picture{
+#picture_container{
   height: 5em;
   width: 5em;
   border-radius: 2em;
+}
+#profile_picture{
+  height:8em;
+  width:8em;
 }
