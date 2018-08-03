@@ -1,3 +1,5 @@
-body {
-  background-color: red;
+#profile_picture{
+  height: 5em;
+  width: 5em;
+  border-radius: 2em;
 }
