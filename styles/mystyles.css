@@ -2,6 +2,7 @@ body {
   background-color: #BBBBBB;
   font-family: 'Ubuntu Condensed', sans-serif;
   height: 100%;
+  margin-bottom: 1em;
 }
 
 .container {
