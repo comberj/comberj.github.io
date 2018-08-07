@@ -3,6 +3,7 @@ body {
   font-family: 'Ubuntu Condensed', sans-serif;
   height: 100%;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .container {
@@ -10,10 +11,9 @@ body {
 }
 
 #profile_picture {
-  height: 80%;
-  width: 90%;
-  margin-left: 10%;
-  margin-top: -3em;
+  width: 60%;
+  margin-left: 27%;
+  margin-top: -4em;
 }
 
 .subtitle {
@@ -82,7 +82,7 @@ body {
 
 .listleft {
   padding-left: 4em;
-  list-style-type:square;
+  list-style-type: square;
 }
 
 #interestlist {
