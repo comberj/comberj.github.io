@@ -1,9 +1,91 @@
-#picture_container{
-  height: 5em;
-  width: 5em;
-  border-radius: 2em;
+body {
+  background-color: #BBBBBB;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  height: 100%;
 }
-#profile_picture{
-  height:8em;
-  width:8em;
+
+.container {
+  box-shadow: -1px 1px 20px 8px;
+}
+
+#profile_picture {
+  height: 80%;
+  width: 90%;
+  margin-left: 10%;
+  margin-top: -3em;
+}
+
+.subtitle {
+  padding-top: 0.3em;
+}
+
+#picture_container {
+  height: 12em;
+  width: 12em;
+  background-color: white;
+  margin-left: 25%;
+  border: 2px double white;
+  border-radius: 3em;
+  overflow: hidden;
+  margin-top: -3em;
+}
+
+.container {
+  background-color: #ffffff;
+  border: 0.3em double steelblue;
+}
+
+#leftsidebar {
+  padding: 1em 2em 2em 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #3a4652;
+  padding-top: 9em;
+  border-top-left-radius: 10em;
+  border-top-right-radius: 10em;
+  color: white;
+  margin-left: 2em;
+}
+
+#rightsidebar {
+  padding-left: 4em;
+  padding-top: 7em;
+  /*padding-right: em;*/
+  padding-bottom: 2em;
+}
+
+#name {
+  font-size: 40px;
+}
+
+.titleright {
+  display: flex;
+  width: 75%;
+  border-bottom: 3px solid black;
+  padding-left: 0em;
+}
+
+.titleleft {
+  display: flex;
+  justify-content: flex-end;
+  width: 7em;
+  padding-top: 0.8em;
+  border-bottom: 3px solid white;
+  padding-left: 3em;
+  padding-right: 0;
+}
+
+.listright {
+  padding-left: 1em;
+}
+
+.listleft {
+  padding-left: 4em;
+}
+
+#interestlist {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3em;
+  padding-top: 1em;
 }
