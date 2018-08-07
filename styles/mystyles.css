@@ -81,6 +81,7 @@ body {
 
 .listleft {
   padding-left: 4em;
+  list-style-type:square;
 }
 
 #interestlist {
