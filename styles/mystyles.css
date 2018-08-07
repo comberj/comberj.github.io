@@ -82,7 +82,7 @@ body {
 
 .listleft {
   padding-left: 4em;
-  list-style-type: square;
+  list-style-type: none;
 }
 
 #interestlist {
