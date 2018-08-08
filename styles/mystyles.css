@@ -20,9 +20,10 @@ body {
   padding-top: 0.3em;
 }
 
-#contactlist{
-list-style-type: none;
+#contactlist {
+  list-style-type: none;
 }
+
 #picture_container {
   height: 12em;
   width: 12em;
@@ -34,9 +35,9 @@ list-style-type: none;
   margin-top: -3em;
 }
 
-#contact{
-    display: flex;
-    justify-content: space-between;
+#contact {
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
@@ -61,7 +62,8 @@ list-style-type: none;
   padding-top: 5em;
   padding-bottom: 2em;
 }
-#header{
+
+#header {
   padding-top: 1em;
 }
 
