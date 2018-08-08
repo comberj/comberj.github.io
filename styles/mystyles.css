@@ -20,6 +20,9 @@ body {
   padding-top: 0.3em;
 }
 
+#contactlist{
+list-style-type: none;
+}
 #picture_container {
   height: 12em;
   width: 12em;
@@ -29,6 +32,11 @@ body {
   border-radius: 3em;
   overflow: hidden;
   margin-top: -3em;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-between;
 }
 
 .container {
@@ -50,9 +58,11 @@ body {
 
 #rightsidebar {
   padding-left: 4em;
-  padding-top: 7em;
-  /*padding-right: em;*/
+  padding-top: 5em;
   padding-bottom: 2em;
+}
+#header{
+  padding-top: 1em;
 }
 
 #name {
