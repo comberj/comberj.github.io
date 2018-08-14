@@ -1,18 +1,141 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="styles/mystyles.css">
-  <title>Jonathan Comberbach Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jonathan Comberbach</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/mystyles.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
 </head>
 
 <body>
- <iframe src="https://resume.creddle.io/embed/86mtzjol1za"
+  <div class="container">
+    <div id="printView">
+      <iframe src="https://resume.creddle.io/embed/86mtzjol1za"
   width="850" height="1100" seamless></iframe>
+    </div>
+    <div class="row">
+      <div id="header" class="tile">
+        <div class="col-4" id="profile_picture_container">
+          <img id="profile_picture" src="/images/profile_picture.jpeg">
+        </div>
+        <div class="bio_section col-6">
+          <div id="about_me">
+            <p>Front-end developer passionate about designing web applications that effortlessly blend functionality, design, and user experience. I want to provide the user with a sense of adventure when they explore all an app has to offer. 5 years of hospitality makes me a big fan of cocktail creation and telling stories.</p>
+          </div>
+        </div>
+        <div>
+          <p>
+            <div class="hiddendiv">jonathan.comberbach@gmail.com</div><i class="social_media far fa-envelope"></i></p>
+          <p>
+            <div class="hiddendiv">604-346-6925</div><i class="social_media fas fa-mobile-alt"></i></p>
+          <p>
+            <div class="hiddendiv">comberj</div><a href="https://github.com/comberj"><i class=" social_media fab fa-github"></i></a></p>
+          <p>
+            <div class="hiddendiv">jonathan.comberbach@gmail.com</div><i class="social_media fab fa-linkedin-in"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="row secondary">
+      <div class="col-6 tile projects">
+        <h3 class="title tiletitle">Projects</h3>
+        <ul>
+          <h4><a href="https://github.com/comberj/chattyApp"><i class="fab fa-github"></i>chattyApp</a></h4>
+          <h6>August 2018</h6>
+          <li>A multi-user messaging client built using React and Websockets with a Node and Express server back-end</li>
+          <li>Focused primarily on React development</li>
+        </ul>
+        <ul>
+          <h4><a href="https://github.com/comberj/Xmarks"><i class="fab fa-github"></i>Xmarks</a></h4>
+          <h6>July 2018</h6>
+          <li>Customized Google Maps API to create social map sharing app</li>
+          <li>Focused primarily on front-end CSS/HTML/EJS</li>
+        </ul>
+        <ul>
+          <h4><a href="https://github.com/comberj/tweeter"><i class="fab fa-github"></i>Tweeter</a></h4>
+          <h6>July 2018</h6>
+          <li>Created Twitter Clone using a Bootstrap layout</li>
+          <li>Focused on user experience and app design CSS/HTML/EJS</li>
+        </ul>
+      </div>
+      <div class="col-5 tile">
+        <div id="skills">
+          <h3 class="title tiletitle">Skills</h3>
+          <ul class="iconlist">
+            <h4 class="title">Languages</h4>
+            <li class="resumeiconlist"><img src="/images/resumeicons/Javascript.png">Javascript </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/Ruby.png"> Ruby </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/HTML.png"> HTML </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/CSS.png"> CSS </li>
+          </ul>
+          <ul class="iconlist">
+            <h4 class="title"> Systems & Databases</h4>
+            <li class="resumeiconlist fixed"><img src="/images/resumeicons/Postgres.png"> PostgreSQL </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/MongoDB.png"> MongoDB </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/Git.png"> Git </li>
+          </ul>
+          <ul class="iconlist">
+            <h4 class="title"> Testing </h4>
+            <li class="resumeiconlist"><img src="/images/resumeicons/mocha.svg"> Mocha </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/chai.png"> Chai </li>
+          </ul>
+          <ul class="iconlist">
+            <h4 class="title">Frameworks, Libraries, Environments</h4>
+            <li class="resumeiconlist"><img src="/images/resumeicons/Node.png"> NodeJS </li>
+            <li class="resumeiconlist fixed"><img src="/images/resumeicons/React.png"> ReactJS </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/Rails.png"> Rails </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/ajax.png"> Ajax </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/Express.png"> Express </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/knex.svg"> Knex </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/ejs.png"> EJS </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/jquery.gif"> JQuery </li>
+            <li class="resumeiconlist fixed"><img src="/images/resumeicons/Bootstrap.png"> Bootstrap </li>
+            <li class="resumeiconlist fixed"><img src="/images/resumeicons/Sass.png"> SASS </li>
+            <li class="resumeiconlist"><img src="/images/resumeicons/Photoshop.svg"> Photoshop </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row secondary">
+      <div class="col-9 tile work_exp">
+        <h3 class="title tiletitle">Work Experience</h3>
+        <ul>
+          <h4>Yaletown Brewing Company</h4>
+          <h6>August 2016 - May 2018 - Bartender</h6>
+          <li>Created unique and interesting cocktails from scratch as per customer specifications</li>
+          <li>Developed strong communication and leadership skills by training new staff members to brand standards</li>
+          <li>Able to work efficiently in high-stress environment</li>
+        </ul>
+        <ul>
+          <h4>Bogarts on Robson</h4>
+          <h6>November 2016 - February 2017 - Bar Manager</h6>
+          <li>Performed managerial duties including inventory management and scheduling</li>
+          <li>Handled customer relations in a gracious and courteous manner</li>
+          <li>In charge of hiring and interviewing potential new employees</li>
+        </ul>
+        <ul>
+          <h4>Coppertank Bar and Grill</h4>
+          <h6>May 2013 - June 2016 - Bar Manager</h6>
+          <li>Managed a team of servers and bartenders</li>
+          <li>Organized staff events and outside fund-raisers</li>
+          <li>Designed cocktail and drink menus</li>
+        </ul>
+      </div>
+      <div class="col-2 tile">
+        <div id="interests">
+          <h3 class="title tiletitle">Interests</h3>
+          <div id="interestlist">
+            <i class="fas interesticon fa-laptop"></i>
+            <i class="fas interesticon fa-dumbbell"></i>
+            <i class="fas interesticon fa-film"></i>
+            <i class="fab interesticon fa-d-and-d"></i>
+            <i class="fas interesticon fa-bicycle"></i>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 
 </html>
