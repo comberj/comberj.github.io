@@ -1,215 +1,23 @@
 body {
-  font-family: 'Ubuntu Condensed', sans-serif;
-  /*background-color: #769dad;*/
-  background-image: url("images/resumeicons/wood.jpg");
-}
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.subtitle {
-  border-bottom: 2px solid black;
-  margin-right: 1em;
-  font-size: 1.4em;
-}
-
-#social_media {
-  font-size: 1.5em;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 4em;
-  align-items: center;
-}
-
-.education {
-  background-image: url("images/resumeicons/chalk.jpg");
-  color: white;
-  font-family: 'Architects Daughter', cursive;
-}
-
-.education .subtitle {
-  border-bottom: 9px double white;
-}
-
-.tile.work_exp {
-  background-image: url(images/resumeicons/notebook.png);
-  background-position: -27px 0px;
-  background-size: cover;
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
-  font-size: 1.1em;
-  border-radius: 0em;
-}
-
-
-.projectscreen {
-  width: 50%;
-  height: 50%;
-  border: 2px solid black;
-  border-radius: 1em;
-}
-
-.projectitem {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5em;
-}
-
-.projectlist {
-  font-size: 1.2em;
-  padding-right: 4em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.hiddendiv {
-  display: none;
-}
-
-.fixed {
-  padding-top: 10px;
-}
-
-.resumeiconlist {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 5em;
-  width: 5em;
-  margin: 1em 0.5em 1em;
-}
-
-.iconlist {
-  padding: 0px 10px 0px 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-}
-
-.security {
-  justify-content: space-around;
-}
-
-.title {
-  width: -webkit-fill-available;
   display: flex;
   justify-content: center;
+  background-color: rgb(247, 247, 247);
+  margin: 0;
 }
 
-.tiletitle {
-  padding-bottom: 1em;
-}
-
-#profile_picture_container {
-  display: flex;
-  justify-content: center;
-}
-
-#nametitle {
-  font-size: 5.5em;
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, .3), 2px 1px 3px rgba(0, 0, 0, .7);
-}
-
-#jobtitle {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 3em;
-}
-
-#profile_picture {
-  height: 21em;
-  width: 22em;
-  border-radius: 11em;
-  border: 4px solid white;
-}
-
-#skills {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-#header {
-  font-size: 1.3em;
-  border-radius: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.tile {
-  position: relative;
-  background-color: aliceblue;
-  border-radius: 2em;
-  margin: 1em 0em 1em 0em;
-  padding: 1em 1em 1.5em 1em;
-  box-shadow: 5px -2px 20px 0 black;
-}
-
-.secondary {
-  display: flex;
-  justify-content: space-between;
-}
-
-#interestlist {
-  display: flex;
-  flex-direction: row;
-  font-size: 3em;
-  justify-content: space-around;
-}
-
-.interesticon {
-  margin-bottom: 1em;
-}
-
-#interests {
-  background-image: url("images/resumeicons/pallete2.png");
-}
-
-.work_exp {
-  font-size: 1.1em;
-}
-
-.projects {
-  background-color: lightyellow;
-  font-size: 1.2em;
-  border-radius: 0.3em;
-}
-
-#pins1,
-#pins2 {
-  position: absolute;
-  width: 4em;
-  height: 4em;
-  top: -30px;
-}
-
-#pins1 {
-  left: 40px;
-}
-
-#pins2 {
-  right: 0;
-}
-
-#printView {
-  display: none;
+iframe {
+  border: none;
+  box-shadow: 2px 2px 6px 3px rgba(0, 0, 0, 0.3);
+  margin: 1em;
 }
 
 @media print {
-
   body {
     height: 100%;
     width: 100%;
     margin: 0em;
-    background-color: white;
-    background-image: none;
-    position: relative;
 
+    position: relative;
   }
   iframe {
     margin: 0;
@@ -218,31 +26,8 @@ img {
     top: 0;
     left: 0;
   }
+}
 
-  #printView {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-  }
-  img,
-  #social_media,
-  .hiddendiv,
-  #headtitles,
-   .fixed,
-  .resumeiconlist,
-  .iconlist,
-  .security,
-  .title,
-  .tiletitle,
-  #profile_picture_container,
-  #profile_picture,
-  #header,
-  .tile,
-  .secondary,
-  #interestlist,
-  .interesticon,
-  .work_exp,
-  .projects {
-    display: none !important;
-  }
+@page {
+  margin: 0em;
 }
