@@ -36,8 +36,8 @@ a:hover{
 section {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-gap: 20px;
-  padding: 24px 24px 24px 0;
+  grid-gap: 40px;
+  padding: 24px 24px 24px 24px;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -53,7 +53,6 @@ section:last-child {
 /*Main Info*/
 
 img.avatar {
-  border-radius: 1em;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -71,6 +70,10 @@ img.avatar {
   color: #236FB2;
 }
 
+.my-summary {
+  font-size: 18px;
+}
+
 .links {
   display: flex;
   margin: 10px 0 20px 0;
@@ -78,6 +81,7 @@ img.avatar {
 
 .link-item {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex: 1;
 }
@@ -135,6 +139,14 @@ img.avatar {
 @media only screen and (max-width : 768px) {
   section {
     grid-template-columns: 1fr;
+  }
+
+  .my-summary{
+    font-size: 16px;
+  }
+
+  .link-item{
+    justify-content: flex-start;
   }
 
   .links, .job-title-container {
