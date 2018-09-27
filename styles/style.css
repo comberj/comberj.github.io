@@ -43,7 +43,7 @@ a:hover{
 
 section {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
   grid-gap: 40px;
   padding: 24px 24px 24px 24px;
 }
