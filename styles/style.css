@@ -149,12 +149,13 @@ margin-right: 5px;
 
 .project-description {
   display: flex;
+  justify-content: space-between;
 }
 
 .project-screenshot{
   height: 225px;
   margin-left: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 /*interests*/
@@ -164,6 +165,16 @@ margin-right: 5px;
   justify-content: space-between;
 }
 
+.project-text{
+  font-size: 16px;
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
+.project-text li{
+  margin-top: 10px;
+}
 
 @media only screen and (max-width : 768px) {
   section {
@@ -188,7 +199,7 @@ margin-right: 5px;
 
   .interests-container {
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 
   .interests-container i {
@@ -197,6 +208,6 @@ margin-right: 5px;
   }
 
   .project-screenshot {
-    height: 100px;
+    display: none;
   }
 }
