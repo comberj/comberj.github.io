@@ -31,6 +31,9 @@ a:hover{
   height: 100%;
   margin: auto;
   padding: 32px;
+  background: white;
+  margin: 20px auto;
+  box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.1)
 }
 
 section {
@@ -38,16 +41,20 @@ section {
   grid-template-columns: 1fr 4fr;
   grid-gap: 40px;
   padding: 24px 24px 24px 24px;
-  border-bottom: 1px solid lightgrey;
-}
-
-section:last-child {
-  border-bottom: none;
 }
 
 .section-title {
   font-weight: bold;
   font-size: 18px;
+}
+
+.section-card {
+  border: 1px solid lightgrey;
+  padding: 1em 1em;
+  background: white;
+  border-radius: 0.3em;
+  box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.1);
+  /*margin: 1em;*/
 }
 
 /*Main Info*/
@@ -73,17 +80,29 @@ img.avatar {
 .my-summary {
   font-size: 18px;
 }
-
+.contact-icon {
+  height: 20px;
+}
 .links {
   display: flex;
+  flex-direction: column;
   margin: 10px 0 20px 0;
 }
 
 .link-item {
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
   flex: 1;
+}
+
+a.contact-info{
+  display: flex;
+  align-items: center;
+}
+
+a.contact-info img{
+margin-right: 5px;
 }
 
 /* Experience Section */
@@ -105,6 +124,10 @@ img.avatar {
   font-size: 18px;
 }
 
+.job-title {
+  color: #236FB2
+}
+
 .job-company {
   font-weight: bold;
   line-height: 1.2;
@@ -124,6 +147,16 @@ img.avatar {
   list-style-type: disc;
 }
 
+.project-description {
+  display: flex;
+}
+
+.project-screenshot{
+  height: 225px;
+  margin-left: 10px;
+  border: 2px solid black;
+}
+
 /*interests*/
 
 .interests-container{
@@ -131,10 +164,6 @@ img.avatar {
   justify-content: space-between;
 }
 
-.interests-container i{
-  height: 35px;
-  opacity: 0.75;
-}
 
 @media only screen and (max-width : 768px) {
   section {
@@ -165,5 +194,9 @@ img.avatar {
   .interests-container i {
     margin-right: 32px;
     margin-bottom: 16px;
+  }
+
+  .project-screenshot {
+    height: 100px;
   }
 }

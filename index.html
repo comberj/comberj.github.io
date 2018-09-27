@@ -27,7 +27,6 @@
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet'>
   <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet' href='./styles/style.css'>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
   <div class="container">
@@ -40,16 +39,19 @@
         <div class='my-title'>Front-end Web Developer</div>
         <div class="links">
           <div class="link-item">
-            <a href="https://github.com/comberj">jonathan.comberbach@gmail.com</a>
+            <a class='contact-info' href="https://github.com/comberj"><img class='contact-icon' src="https://png.icons8.com/color/50/000000/new-post.png">jonathan.comberbach@gmail.com</a>
           </div>
           <div class="link-item">
-            <a href="tel:604-346-6925">604-346-6925</a>
+            <a class='contact-info' href="tel:604-346-6925"><img class='contact-icon' src="https://png.icons8.com/dusk/50/000000/phone.png">604-346-6925</a>
           </div>
           <div class="link-item">
-            <a href="https://comberj.github.io">comberj</a>
+            <a class='contact-info' href="https://comberj.github.io"><img class='contact-icon' src="https://png.icons8.com/ios/50/000000/resume.png">comberj</a>
           </div>
           <div class="link-item">
-            <a href="https://github.com/comberj">github</a>
+            <a class='contact-info' href="https://github.com/comberj"><img class='contact-icon' src="https://png.icons8.com/ios/50/000000/github-filled.png">github</a>
+          </div>
+          <div class="link-item">
+            <a class='contact-info' href="https://www.linkedin.com/in/jonathan-comberbach-597b27168/"><img class='contact-icon'src="https://png.icons8.com/color/50/000000/linkedin.png">LinkedIn</a>
           </div>
         </div> <!--- end of links --->
         <p class='my-summary'>Front-end developer passionate about designing web applications that effortlessly blend functionality, design, and user experience. I want to provide the user with a sense of adventure when they explore all an app has to offer. 5 years of hospitality makes me a big fan of cocktail creation and telling stories.</p>
@@ -58,8 +60,7 @@
 
     <section>
       <div class="section-title">Experience</div>
-      <div>
-
+      <div class='section-card'>
         <div class="job">
           <div class="job-title-container">
             <div>
@@ -116,7 +117,7 @@
 
     <section>
       <div class="section-title">Education</div>
-      <div>
+      <div class='section-card'>
 
         <div class="job">
           <div class="job-title-container">
@@ -147,12 +148,147 @@
            - 4 years of psychology along with a Minor degree in Screen-writing.<br/>
           </p>
         </div> <!-- end of education -->
+
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Interests</div>
+      <div class="interests-container">
+        <img src="https://png.icons8.com/dusk/50/000000/monitor.png">
+        <img src="https://png.icons8.com/flat_round/50/000000/musical-notes.png">
+        <img src="https://png.icons8.com/color/50/000000/food.png">
+        <img src="https://png.icons8.com/color/50/000000/bicycle.png">
+        <img src="https://png.icons8.com/dusk/50/000000/picture.png">
+        <img src="https://png.icons8.com/dusk/50/000000/dumbbell.png">
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Projects</div>
+      <div>
+
+        <div class="job">
+          <div class="job-title-container">
+            <div>
+              <div class="job-company">SpotifyAutoDJ</div>
+              <div class="job-title">Instant playlist maker</div>
+            </div>
+            <div>
+              Current
+            </div>
+          </div> <!-- end of education container -->
+          <div class='project-description'>
+            <p>
+             - ReactJS front-end on a Django framework<br/>
+             - Creation of playlists instantly based on user ratings and attached tags<br/>
+            </p>
+            <img class='project-screenshot' src='./images/resumeicons/jungle.png'>
+         </div>
+        </div>
+
+        <div class="job">
+          <div class="job-title-container">
+            <div>
+              <div class="job-company">SwoleMates</div>
+              <div class="job-title">Fully-featured Social Platform</div>
+            </div>
+            <div>
+              Sep 2018
+            </div>
+          </div> <!-- end of education container -->
+          <div class='project-description'>
+            <p>
+             - ReactJS front-end on an Express server with a PostgreSQL database<br/>
+             - Fully sortable calendar to help plan and organize your gym events/workouts<br/>
+            </p>
+            <img class='project-screenshot' src='./images/resumeicons/jungle.png'>
+         </div>
+        </div>
+
+        <div class="job">
+          <div class="job-title-container">
+            <div>
+              <div class="job-company">Jungle</div>
+              <div class="job-title">Mini E-commerce application</div>
+            </div>
+            <div>
+              Aug 2018
+            </div>
+          </div> <!-- end of education container -->
+          <div class='project-description'>
+          <p>
+           - Ruby on Rails front-end for the purpose of teaching Rails by example<br/>
+           - Testing and debugging done with Rspec
+          </p>
+           <img class='project-screenshot' src='./images/resumeicons/jungle.png'>
+         </div>
+        </div> <!-- end of education -->
+
+        <div class="job">
+          <div class="job-title-container">
+            <div>
+              <div class="job-company">ChattyApp</div>
+              <div class="job-title">Slack clone</div>
+            </div>
+            <div>
+              Aug 2018
+            </div>
+          </div> <!-- end of education container -->
+          <div class='project-description'>
+          <div class='project-description'>
+          <p>
+           - ReactJS front-end, on an Express server, with WebSockets implementation<br/>
+           - Multi-user messaging client with implemented usernames and image functionality
+          </p>
+          <img class='project-screenshot' src='./images/resumeicons/chatty.png'>
+         </div>
+        </div> <!-- end of education -->
+
+        <div class="job">
+          <div class="job-title-container">
+            <div>
+              <div class="job-company">Xmarks</div>
+              <div class="job-title">Customizable WikiMap</div>
+            </div>
+            <div>
+              July 2018
+            </div>
+          </div> <!-- end of education container -->
+          <div class='project-description'>
+          <p>
+           - JQuery front-end on an Express Server and PostGreSQL database<br/>
+           - Google Maps API used to create custom maps with user-specific pins attached
+          </p>
+          <img class='project-screenshot' src='./images/resumeicons/maps.png'>
+         </div>
+        </div> <!-- end of education -->
+
+
+        <div class="job">
+          <div class="job-title-container">
+            <div>
+              <div class="job-company">Tweeter</div>
+              <div class="job-title">Twitter Clone</div>
+            </div>
+            <div>
+              June 2018
+            </div>
+          </div> <!-- end of education container -->
+          <div class='project-description'>
+          <p>
+           - JQuery front-end on an Express Server and MongoDB database<br/>
+           - A twitter clone used to practice JQuery and DOM manipulation
+          </p>
+          <img class='project-screenshot' src='./images/resumeicons/llamadrama.png'>
+         </div>
+        </div> <!-- end of education -->
       </div>
     </section>
 
     <section>
       <div class="section-title">Skills</div>
-      <div>
+      <div class='section-card'>
         <div class="skills-container">
           <ul>
             <li>Javascript</li>
@@ -185,26 +321,6 @@
         </div> <!-- end of skills container -- >
       </div>
     </section>
-
-    <section>
-      <div class="section-title">Interests</div>
-      <div class="interests-container">
-        <i class="fas fa-laptop"></i>
-        <i class="fab fa-d-and-d"></i>
-        <i class="fas fa-bicycle"></i>
-        <i class="fas fa-headphones-alt"></i>
-        <i class="fas fa-utensils"></i>
-      </div>
-    </section>
-
-    <section>
-      <div class="section-title">Projects</div>
-      <div>
-        <div class="job-company">Some name</div>
-        <div class="job-title">Some Company, Inc</div>
-      </div>
-    </section>
-
   </div>
 </body>
 </html>
