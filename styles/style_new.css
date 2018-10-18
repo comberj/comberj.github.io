@@ -99,7 +99,7 @@ main #mobileContact {
   width: 300px;
   padding: 160px 10px 0 10px;
   font-size: 12px;
-  background: #fff;
+  background: #d0f3fe90;
   z-index: 1;
 }
 
@@ -109,7 +109,7 @@ main #mobileContact {
 }
 
 #sidebar a:hover {
-  color: orangered;
+  color: #5d5ee1;
   text-decoration: none;
 }
 
@@ -184,7 +184,7 @@ main #mobileContact {
   font-style: none;
   font-weight: 400;
   font-size: 1.05em;
-  color: orangered;
+  color: #5d5ee1;
 }
 
 .date-header {
@@ -421,7 +421,7 @@ main #mobileContact {
   }
 
   .mobile-name a {
-    font-size: 1.25em;
+    font-size: 1em;
   }
 
   .mobile-job {

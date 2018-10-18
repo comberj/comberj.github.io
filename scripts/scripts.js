@@ -44,5 +44,20 @@ $(function () {
     if (lineH < lineHpart) {
       $('#animation').attr('src', '../assets/scroll10.png');
     }
+    if (lineH < lineHpart) {
+      $('#animation').attr('src', '../assets/scroll11.png');
+    }
+    if (lineH < lineHpart) {
+      $('#animation').attr('src', '../assets/scroll12.png');
+    }
+    if (lineH < lineHpart) {
+      $('#animation').attr('src', '../assets/scroll13.png');
+    }
+    if (lineH < lineHpart) {
+      $('#animation').attr('src', '../assets/scroll14.png');
+    }
+    if (lineH < lineHpart) {
+      $('#animation').attr('src', '../assets/scroll15.png');
+    }
   });
 });
