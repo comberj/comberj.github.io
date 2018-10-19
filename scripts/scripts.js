@@ -42,22 +42,22 @@ $(function () {
       $('#animation').attr('src', '../assets/scroll9.png');
     }
     if (lineH < lineHpart * 7 && lineH > lineHpart * 6) {
-      $('#animation').attr('src', '../assets/scroll9.png');
+      $('#animation').attr('src', '../assets/scroll10.png');
     }
     if (lineH < lineHpart * 6 && lineH > lineHpart * 5) {
-      $('#animation').attr('src', '../assets/scroll9.png');
+      $('#animation').attr('src', '../assets/scroll11.png');
     }
     if (lineH < lineHpart * 5 && lineH > lineHpart * 4) {
-      $('#animation').attr('src', '../assets/scroll9.png');
+      $('#animation').attr('src', '../assets/scroll12.png');
     }
     if (lineH < lineHpart * 4 && lineH > lineHpart * 3) {
-      $('#animation').attr('src', '../assets/scroll9.png');
+      $('#animation').attr('src', '../assets/scroll13.png');
     }
     if (lineH < lineHpart * 3 && lineH > lineHpart * 2) {
-      $('#animation').attr('src', '../assets/scroll9.png');
+      $('#animation').attr('src', '../assets/scroll14.png');
     }
     if (lineH < lineHpart * 2 && lineH > lineHpart) {
-      $('#animation').attr('src', '../assets/scroll9.png');
+      $('#animation').attr('src', '../assets/scroll14.png');
     }
     if (lineH < lineHpart) {
       $('#animation').attr('src', '../assets/scroll15.png');
