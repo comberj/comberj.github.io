@@ -24,7 +24,7 @@ main a {
 }
 
 main a:hover {
-  color: orangered;
+  color: #5d5ee1;
   text-decoration: none;
 }
 
@@ -417,7 +417,7 @@ main #mobileContact {
 
   #pdfSkills strong {
     font-weight: 400;
-    color: orangered;
+    color: #5d5ee1;
   }
 
   .mobile-name a {
