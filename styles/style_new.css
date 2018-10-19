@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Mono:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Mono:400,700|Ubuntu');
 
 main {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
   color: #444;
   margin: 30px 50px 50px 320px;
@@ -421,7 +421,7 @@ main #mobileContact {
   }
 
   .mobile-name a {
-    font-size: 1em;
+    font-size: 0.85em;
   }
 
   .mobile-job {
